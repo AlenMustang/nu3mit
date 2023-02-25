@@ -1,0 +1,327 @@
+.footer-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+    bottom: 0;
+    justify-content: space-between;
+    padding: 1rem 15rem;
+    background-color: #2d2d2d;
+  }
+  te
+  .container-socials {
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1%;
+  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 100;
+  }
+  .container-payment {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1%;
+  
+    font-family: -ap5ple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+  }
+  
+  .card-container {
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1%;
+  
+    font-family: -ap5ple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+  }
+  .card-container-shipping {
+    display: block;
+    color: #fff;
+    padding: 0.4rem;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1%;
+  
+    font-family: -ap5ple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+  }
+  .card-container > p {
+    color: #ffff;
+    font-weight: 500;
+  }
+  .card-icon {
+    padding: 0.4rem;
+    font-size: 2.6rem;
+  }
+  .card-icon-shipping {
+    padding: 0.4rem;
+    font-size: 2.6rem;
+  }
+  .card-icon:hover {
+    color: #05999b;
+    transition: all 0.3s ease-in;
+  }
+  .image {
+    height: 2.2rem;
+    filter: grayscale(100%);
+    padding-top: 0.4rem;
+    padding-right: 0.4rem;
+  }
+  
+  .social-icon {
+    font-size: 2.2rem;
+    padding-top: 0.4rem;
+  }
+  
+  .card-content {
+    display: grid;
+    text-align: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, auto);
+  }
+  .card-content-payment {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  
+    text-align: center;
+    justify-content: space-between;
+  }
+  .card-content-payment-shipping {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+    justify-content: center;
+  }
+  .social-links {
+    text-decoration: none;
+    color: #ffff;
+  }
+  
+  .social-links:hover {
+    color: #05999b;
+    transition: all ease-in 0.3s;
+  }
+  
+  .services {
+    padding: 1%;
+    display: block;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+  .footer-ul {
+    color: #fff;
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 100;
+  
+    padding: 0.5rem;
+  }
+  .support-services {
+    display: flex;
+  
+    text-align: left;
+  }
+  .footer-ul-left {
+    color: #fff;
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 100;
+  
+    padding: 0.5rem;
+  }
+  .footer-list {
+    color: #fff;
+  
+    font-size: 1.1rem;
+    padding-top: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .footer-link:hover {
+    transition: all 0.3s ease-in;
+    color: #05999b;
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .footer-icon {
+    color: #fff;
+  }
+  .footer-icon:hover {
+    color: #05999b;
+    transition: all ease-in 0.3s;
+  }
+  
+  .newsletter {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.3rem;
+  
+    font-weight: 500;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  .newsletter > p {
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+  
+  .news-container {
+    padding: 1%;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: flex;
+  }
+  .mail {
+    width: 55%;
+  
+    text-decoration: none;
+  }
+ 
+  .input {
+    width: 100%;
+
+    padding: 5px;
+    align-content: center;
+  }
+  
+  .bottom-footer {
+    background-color: rgba(0, 0, 0, 95%);
+    display: flex;
+    width: 100%;
+  
+    z-index: -1;
+  
+    padding: 0.5rem;
+    justify-content: center;
+  }
+  .links {
+    display: flex;
+  }
+  .link-footer {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 0.8rem;
+    font-style: italic;
+    padding-right: 2rem;
+  }
+  
+  .comp-name {
+    color: #fff;
+    padding: 2px;
+    font-size: 0.8rem;
+    padding-right: 4rem;
+  }
+  
+  .footer-icon-bot {
+    color: #fff;
+    padding: 0.1rem;
+    transform: translate(0%, 12%);
+  }
+  
+  @media screen and (max-width: 960px) {
+    .footer-container {
+      display: grid;
+      grid-template-rows: repeat(5, auto);
+  
+      background-color: #1d1d1d;
+      padding: 3rem 3rem;
+    }
+    .card-content {
+      display: block;
+  
+      text-align: center;
+    }
+    .container-socials {
+      color: #fff;
+      font-size: 1.1rem;
+      text-align: center;
+      padding: 1%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-weight: 500;
+    }
+    ul {
+      color: #fff;
+      list-style: none;
+      font-size: 1.1rem;
+      font-weight: 100;
+      display: grid;
+      text-align: center;
+      padding: 0.5rem;
+    }
+    .footer-list {
+      color: #fff;
+  
+      font-size: 0.9rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+  
+    .footer-link {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .bottom-footer {
+      background-color: rgba(0, 0, 0, 95%);
+      display: block;
+      width: 100%;
+      height: 3vh;
+      z-index: -1;
+      position: absolute;
+  
+      justify-content: center;
+    }
+    .news-container {
+      display: flex;
+      position: static;
+    }
+    .newsletter {
+      color: #fff;
+      padding: 0.4rem;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+    .newsletter > p {
+      color: #fff;
+      padding: 0.4rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .input {
+      display: grid;
+      align-content: center;
+      grid-template-rows: 2;
+    }
+    .mail {
+      width: 100%;
+  
+      text-decoration: none;
+    }
+    .bottom-footer {
+      display: flex;
+      overflow: hidden;
+    }
+  }
+  
